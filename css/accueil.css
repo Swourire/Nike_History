@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+    
+    display: grid;
+    grid-template-rows: 10vh 80vh 10vh;
+}
+
+/* HEADER */
+
+header {
+    grid-row: 2;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    background-color: white;
+}
+
+header p {
+    font-size: 5em;
+
+    margin: 0;
+
+    color: black;
+}
+
+header img {
+    height: 30%;
+    width: auto;
+}
+
+/* FOOTER */
+
+footer {
+    grid-row: 3;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    font-size: 3em;
+}
