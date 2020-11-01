@@ -1,0 +1,69 @@
+body {
+    background-color: white;
+
+    display: grid;
+    grid-template-rows: 10vh 90vh auto;
+}
+
+/* HEADER */
+
+header {
+    grid-row: 2;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header p {
+    color: black;
+    font-size: 4em;
+
+    padding-bottom: 80px;
+}
+
+/* SECTION */
+
+section {
+    background-color: black;
+
+    padding: 50px 0;
+}
+
+/* SNEAKERS EXAMPLE */
+
+.example {
+    margin: 50px 0;
+
+    height: 300px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#example-image {
+    height: 300px;
+    width: auto;
+}
+
+.example-text {
+    height: 100%;
+    width: 30%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.example-text h6 {
+    font-size: 2em;
+
+    margin: 0;
+}
+
+.example-text p {
+    text-align: center;
+}
