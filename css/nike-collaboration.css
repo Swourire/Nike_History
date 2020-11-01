@@ -1,0 +1,86 @@
+body {
+    display: grid;
+    grid-template-rows: minmax(104px, 10vh) 90vh auto;
+}
+
+/* HEADER */
+
+header {
+    grid-row: 2;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header p {
+    color: black;
+    font-size: 4em;
+
+    padding-bottom: 80px;
+}
+
+/* PAGE */
+
+section {
+    background-color: black;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-container {
+    margin: 50px 0;
+    padding: 10px;
+
+    width: 60%;
+
+    text-align: center;
+
+    border: white solid 4px;
+}
+
+#example-text {
+    margin: 30px 0;
+
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+/* SNEAKERS EXAMPLE */
+
+.example {
+    margin: 50px 0;
+
+    height: 300px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.example-images img {
+    height: 300px;
+    width: auto;
+}
+
+.example-text {
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.example-text h6 {
+    font-size: 2em;
+
+    margin: 0;
+}
+
+.example-text p {
+    margin: 0 50px 0 0;
+}
