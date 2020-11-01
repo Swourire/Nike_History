@@ -1,0 +1,66 @@
+body {
+    display: grid;
+    grid-template-rows: minmax(104px, 10vh) 90vh auto;
+}
+
+/* HEADER */
+
+header {
+    grid-row: 2;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header p {
+    color: black;
+    font-size: 4em;
+
+    padding-bottom: 80px;
+}
+
+/* SECTION */
+
+section {
+    background-color: black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#intro {
+    width: 50%;
+
+    text-align: center;
+    font-size: 1.5em;
+
+    margin: 80px 0 80px 0;
+}
+
+hr {
+    background-color: white;
+
+    height: 3px;
+    width: 30%;
+}
+
+.element {
+    width: 60%;
+
+    margin: 50px 0;
+}
+
+.element p {
+    text-align: center;
+}
+
+.element .element-title {
+    font-size: 2em;
+}
+
+.element .element-text {
+    font-size: 1.4em;
+}
